@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Libre+Baskerville:wght@700&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@500&family=Raleway&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arima', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top-player {
+    background-color: white;
+    width: 870px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.top-player>h3 {
+    color: #562EFF;
+}
+
+.players {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player {
+    display: flex;
+}
+
+.title {
+    padding-left: 10px;
+    font-size: 18px;
+}
